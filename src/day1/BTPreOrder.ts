@@ -1,3 +1,5 @@
+// all of these tree traversals are depth first (pre/in/post search)
+
 function walk(curr: BinaryNode<number> | null, path: number[]): number[] {
     // base case
     if (!curr) {
